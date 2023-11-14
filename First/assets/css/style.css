@@ -1,0 +1,230 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clear{
+    clear: both;
+}
+
+#header{
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#nav{
+    display: inline-block;
+}
+#nav >li:hover >a {
+    color: black;
+    background-color: #ccc;
+}
+#nav li:hover .sbnav{
+    display: block;
+}
+#nav .sbnav li:hover a{
+    color: black ;
+    background-color: #ccc;
+    padding: 0 12px;
+    line-height: 46px;
+}
+#nav >li >a{
+    color: white;
+    text-transform: uppercase;
+}
+#nav .sbnav a{
+    color: black;
+    padding: 0 12px;
+    line-height: 38px;
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+#nav .sbnav {
+    display: none;
+    position: absolute;
+    line-height: 46px;
+    background-color: aliceblue;
+    color: black;
+    min-width: 160px;
+    box-shadow: 0 0 10px rgba(0,0 , 0, 0.3);
+}
+#nav .sbnav li{
+    width: 100%;
+}
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+#header .header_search{
+    float: right;
+    padding: 0 21px;
+    
+}
+#header .header_search:hover{
+    background-color: red;
+    cursor: pointer;
+}
+#header .search_icon{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 46px;
+}
+#slider{
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50% ;
+    background: url('/First/assets/img/slider1.jpg') top center / cover no-repeat;
+}
+#slider .text-content{
+    position: absolute;
+    bottom: 47px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#content .section{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+#slider .text-content{
+    color: white;
+}
+#content .section .section-heading,.section_content{
+    text-align: center;
+}
+#content .section-heading{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 42px;
+}
+#content .section_content{
+    margin-top: 24px;
+    font-size: 15;
+    font-style: italic;
+    opacity: 0.6;
+    padding-bottom: 28px;
+}
+#content .text-content{
+    margin-top: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+#content .thanhvien{
+    float: left;
+    margin-top: 46px;
+    text-align: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#content .name1{
+    font: 15px;
+}
+#content .img{
+    margin-top: 16px;
+    border-radius: 4px;
+}
+#content .ontourdate{
+    padding-top: 12px;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height: 900px;
+}
+#content ul.tickets{
+    background-color: aliceblue;
+    color: #757575;
+    margin-left: 250px;
+    margin-right: 250px;
+    list-style: none;
+}
+#content .tickets > li{
+    padding: 8px 16px;
+    border: 2px solid;
+    
+}
+#content .datve{
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 3px 2px;
+}
+#content .sove{
+    float: right;
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-right: 12px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+}
+#content .w3_comeend {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: black;
+    padding: 32px 8px;
+    justify-content: center;
+    align-content: center;
+}
+#content .comeendimg{
+    width: 100%;
+    height: 186px;
+}
+#content .comeend{
+    background-color: black;
+    justify-content: center;
+    align-content: center;
+    height: 406px;
+    width: 345px;
+    padding: 8px 8px;
+}
+#content .comeendsecond{
+    background-color: white;
+    height: 300px;
+    padding: 2px 16px;
+}
+#content .comeendsecond >p{
+    font-size: 15px;
+    padding: 15px;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+}
+#content .test{
+    font-size: 20px;
+}
+
+#content .comend_buy{
+    width: 90px;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+}
+#content .section{
+    width: 100%;
+    height: 600px;
+}
+/* #footer{
+    
+} */
